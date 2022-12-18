@@ -11,6 +11,7 @@ export function HistoryCard() {
       rounded="md"
       alignItems="center"
       justifyContent="space-between"
+      fontFamily="heading"
     >
       <VStack mr={5} flex={1}>
         <Heading
