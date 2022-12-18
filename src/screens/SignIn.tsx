@@ -8,6 +8,7 @@ import { useNavigation } from '@react-navigation/native'
 
 export function SignIn() {
   const navigation = useNavigation<AuthNavigatorRoutesProps>()
+
   function handleCreateAccount() {
     navigation.navigate('signUp')
   }
